@@ -12,13 +12,36 @@ h2 {
     color:#252B42;
 }
 
-li {
-    display: inline-block;
+blockquote{
+    font-weight: 600;
+    color: #737373;
+}
+
+li, p {
+    line-height: 1.5rem;
+    list-style-type: none;
+  }
+  
+.otstup{
+    line-height: 1.5rem;
+}
+
+form{
+    line-height: 3rem;
 }
 
 .navigation{
-    
+    height: 20rem;
+    width: 40rem;
     background-color: #f7f7f7;
+}
+
+#sectiontwo{
+    background-color: #FAFAFA;
+}
+
+#sectionthree{
+    background-color: #F3F3F3;
 }
 
 h1{
@@ -34,19 +57,11 @@ h1{
 }
 
 .navignav{
-    width: Hug(12.3rem);
-    height: Hug(27rem);
-    gap: 3rem;
-    top: 16.4rem;
-    left: 14.5rem;
+    color: #737373;
     }
 .consultal{
-    width: 30rem;
-    height: 10rem;
     font-weight: 700;
     color:#252B42;
-    top:2.3rem;
-    left:3.5rem;
 }
 
 .cleanbutton{
@@ -61,4 +76,18 @@ h1{
 
 footer{
     background: #252B42;
+}
+
+.orange{
+    color: #FF7B47;
+    font-weight: 600;
+}
+
+.fontweight{
+    font-weight: 600;
+    color:#FFFFFF;
+}
+
+#white{
+    color:#FFFFFF;
 }
