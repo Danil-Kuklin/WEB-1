@@ -1,15 +1,17 @@
 :root {
     font-family: 'Montserrat', sans-serif;
     font-size: 62.5%;
+    
 }
 
 a {
     text-decoration:none;
-  }
+}
 
 h2 {
     text-align: center;
     color:#252B42;
+    font-size: 4rem;
 }
 
 blockquote{
@@ -19,6 +21,7 @@ blockquote{
 
 p{
      color: #737373;
+     font-size: 1.4rem;
 }
 
 li, p {
@@ -35,14 +38,16 @@ form{
 }
 
 .navigation{
-    height: 20rem;
-    width: 40rem;
+    min-height: 53.2rem;
     background-color: #f7f7f7;
 }
+
+
 
 .sectiontwo{
    
     background-color: #FAFAFA;
+    margin-top: 0;
 }
 
 #sectionthree{
@@ -64,10 +69,17 @@ h1{
 .navignav{
     color: #737373;
     font-weight: 400;
+    font-size: 3rem;
+    
     }
 .consultal{
     font-weight: 700;
     color:#252B42;
+    font-size: 2.4rem;
+    margin-left: 3.5rem;
+    margin-top: 2.3rem;
+    margin-right: 19.2rem;
+    margin-bottom: 45rem;
 }
 
 .cleanbutton{
@@ -95,6 +107,11 @@ footer{
     color:#FFFFFF;
 }
 
+.professii{
+    font-weight: 600;
+    color:#252B42;
+}
+
 .white{
     color:#FFFFFF;
 }
@@ -114,6 +131,15 @@ footer{
 #block{
    
     border-radius: 5px;
+}
 
+.home{
+    margin-left: 14.5rem;
+    margin-top: 16.4rem;
+    margin-right: 14.5rem;
+    margin-bottom: 9.8rem;
+}
 
+.marginnone{
+    margin: 0;
 }
