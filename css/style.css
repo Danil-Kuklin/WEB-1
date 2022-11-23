@@ -17,6 +17,10 @@ blockquote{
     color: #737373;
 }
 
+p{
+     color: #737373;
+}
+
 li, p {
     line-height: 1.5rem;
     list-style-type: none;
@@ -37,6 +41,7 @@ form{
 }
 
 #sectiontwo{
+   
     background-color: #FAFAFA;
 }
 
@@ -58,6 +63,7 @@ h1{
 
 .navignav{
     color: #737373;
+    font-weight: 400;
     }
 .consultal{
     font-weight: 700;
@@ -75,6 +81,7 @@ h1{
 }
 
 footer{
+    width: 40rem;
     background: #252B42;
 }
 
@@ -100,4 +107,10 @@ footer{
 .textidustry{
     font-weight: 500;
     color: #737373;
+}
+
+#block{
+    border-style: solid;
+    border-color:#737373;
+    border-width: 1px;
 }
