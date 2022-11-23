@@ -40,7 +40,7 @@ form{
     background-color: #f7f7f7;
 }
 
-#sectiontwo{
+.sectiontwo{
    
     background-color: #FAFAFA;
 }
@@ -95,7 +95,7 @@ footer{
     color:#FFFFFF;
 }
 
-#white{
+.white{
     color:#FFFFFF;
 }
 
@@ -109,8 +109,11 @@ footer{
     color: #737373;
 }
 
+
+
 #block{
-    border-style: solid;
-    border-color:#737373;
-    border-width: 1px;
+   
+    border-radius: 5px;
+
+
 }
