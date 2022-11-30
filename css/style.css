@@ -4,6 +4,14 @@
     
 }
 
+*{
+    box-sizing: border-box;
+}
+
+header{
+    padding-top: 2rem;
+}
+
 a {
     text-decoration:none;
 }
@@ -70,16 +78,13 @@ h1{
     color: #737373;
     font-weight: 400;
     font-size: 3rem;
-    
     }
 .consultal{
     font-weight: 700;
     color:#252B42;
     font-size: 2.4rem;
-    margin-left: 3.5rem;
-    margin-top: 2.3rem;
-    margin-right: 19.2rem;
-    margin-bottom: 45rem;
+    margin-right: auto;
+    margin-left: 2rem;
 }
 
 .cleanbutton{
@@ -93,7 +98,7 @@ h1{
 }
 
 footer{
-    width: 40rem;
+    
     background: #252B42;
 }
 
@@ -143,3 +148,54 @@ footer{
 .marginnone{
     margin: 0;
 }
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2em;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav li{
+    margin: 5rem 3rem 5rem 3rem;
+}
+
+.text1{
+    margin: 3rem 6.7rem 4rem 6.7rem;
+}
+button {
+    /* Сбрасываем дефолтные стили */
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.orangebut{
+    background-color: #FF7B47;
+    color: #F3F3F3;
+    border-radius: 37px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.greenbut{
+    background-color:#f7f7f7;
+    color: #0D5C63;
+    border-radius: 37px;
+    border: 0.1rem solid #0D5C63;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
