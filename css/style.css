@@ -199,3 +199,19 @@ button {
     padding: 1rem 3rem 1rem 3rem;
 }
 
+.text2{
+    margin: 1rem 5rem 4.5rem 5rem;
+}
+
+.box{
+    border: 0.1rem solid #E8E8E8;
+    margin: 3rem 4rem 0 4rem;
+}
+
+.textinbox{
+    padding: 0 4.3rem 3.5rem 4.3rem;
+}
+
+.textbox2{
+    padding: 2rem 6rem 1.5rem 4rem;
+}
