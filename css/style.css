@@ -187,7 +187,7 @@ button {
 .orangebut{
     background-color: #FF7B47;
     color: #F3F3F3;
-    border-radius: 37px;
+    border-radius: 3.7rem;
     font-weight: 700;
     font-size: 14px;
     line-height: 28px;
@@ -201,8 +201,18 @@ button {
     border: 0.1rem solid #0D5C63;
 
     font-weight: 700;
-    font-size: 14px;
-    line-height: 28px;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.orangebut2{
+    background-color: #FF7B47;
+    color: #F3F3F3;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
     padding: 1rem 3rem 1rem 3rem;
 }
 
@@ -245,4 +255,9 @@ button {
 .bckhand{
     background-image: url(../img/handsonmobile.png);
     margin-top: 0;
+}
+
+.forlabel{
+    gap:2rem;
+    margin: 4rem 5rem 4rem 5rem;
 }
