@@ -100,6 +100,7 @@ h1{
 footer{
     
     background: #252B42;
+    padding-left: 3rem;
 }
 
 .orange{
@@ -286,4 +287,15 @@ button {
     margin-bottom: 8.5rem;
     padding-left: 7rem;
     padding-right: 6rem;
+}
+
+.orangebut3{
+    background-color: #FF7B47;
+    color: #F3F3F3;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    padding: 1rem 3rem 1rem 3rem;
+
 }
