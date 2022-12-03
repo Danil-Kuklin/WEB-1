@@ -276,6 +276,14 @@ button {
 }
 
 .forlabel{
-    gap:2rem;
-    margin: 4rem 5rem 4rem 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.istok{
+    margin-top: 4rem;
+    margin-left: 8rem;
+    margin-bottom: 8.5rem;
+    padding-left: 7rem;
+    padding-right: 6rem;
 }
