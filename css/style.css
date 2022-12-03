@@ -115,6 +115,7 @@ footer{
 .professii{
     font-weight: 600;
     color:#252B42;
+    margin:0;
 }
 
 .white{
@@ -161,6 +162,22 @@ footer{
     flex-direction: column;
     justify-content: center;
     gap:1em;
+}
+
+.wrapper3{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    
+}
+
+.wrapper4{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+    margin-left: 3.5rem;
+    gap:1.5rem;
+    align-items: center;
 }
 
 nav ul{
@@ -242,6 +259,7 @@ button {
     background-color: #fff;
     border-radius: 0.5rem;
     margin: 3rem 4rem 0 4rem;
+   
 }
 
 .contact{
