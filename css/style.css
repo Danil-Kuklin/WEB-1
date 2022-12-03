@@ -299,3 +299,14 @@ button {
     padding: 1rem 3rem 1rem 3rem;
 
 }
+
+.wrapper5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding-left: 4rem;
+
+}
