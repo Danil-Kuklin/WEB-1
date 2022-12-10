@@ -272,8 +272,7 @@ button {
 }
 
 .bckhand{
-    background-image: url(../img/handsonmobile.png);
-    margin-top: 0;
+    background-image: url(../img/bigmanback.png);
 }
 
 .forlabel{
@@ -315,19 +314,19 @@ input{
     padding-top: 1rem;
     padding-left: 2rem;
     padding-bottom: 1.5rem;
-    padding-right: 13rem;
+    padding-right: 14.5rem;
     font-weight: 600;
     font-size: 1.4rem;
     line-height: 2.4rem;
 }
 
 select{
-    padding-top: 0.3rem;
-    padding-left: 0.3rem;
-    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1.5rem;
+    padding-right: 13rem;
     font-weight: 600;
-    font-size: 1.4rem;
-    line-height: 2.4rem;
+    color:#737373;
 }
 
 .wrapper6{
@@ -335,5 +334,21 @@ select{
     flex-direction: column;
     justify-content: flex-end;
     gap:0;
+}
 
+.wrapper7{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+}
+
+.butandstring{
+    display: flex;
+    flex-direction: row;
+}
+
+@media all and (max-width:700){
+    .navigation{
+        background-image: url(/img/backgroundhead.png);
+    }
 }
