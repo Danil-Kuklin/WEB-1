@@ -364,6 +364,22 @@ select{
     flex-direction: row;
 }
 
+#id_navar{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    align-items: center;
+    padding-top: 10rem;
+
+}
+/* 
+.navar{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    align-items: center;
+} */
+
 @media screen and (min-width:700px){
     .navigation{
         background-image: url(../img/backgroundhead.png);
@@ -376,5 +392,20 @@ select{
     .bob{
         margin-right: 6rem;
         margin-left: auto;
+    }
+
+    #id_navar{
+        display: flex;
+        flex-direction: row;
+        padding-top: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        gap:2rem;
+    }
+
+    .navignav{
+        font-weight: 600;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
     }
 }
