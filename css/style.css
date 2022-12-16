@@ -132,6 +132,8 @@ footer{
 .textidustry{
     font-weight: 500;
     color: #737373;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 
@@ -208,8 +210,8 @@ button {
     color: #F3F3F3;
     border-radius: 3.7rem;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 28px;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
     padding: 1rem 3rem 1rem 3rem;
 }
 
@@ -372,13 +374,10 @@ select{
     padding-top: 10rem;
 
 }
-/* 
-.navar{
-    display: flex;
-    flex-direction: column;
-    gap:3rem;
-    align-items: center;
-} */
+
+.disp{
+    display: none;
+}
 
 @media screen and (min-width:700px){
     .navigation{
@@ -397,9 +396,7 @@ select{
     #id_navar{
         display: flex;
         flex-direction: row;
-        padding-top: 4rem;
-        margin-left: auto;
-        margin-right: auto;
+
         gap:2rem;
     }
 
@@ -407,5 +404,30 @@ select{
         font-weight: 600;
         font-size: 1.4rem;
         line-height: 2.4rem;
+    }
+
+    .disp{
+        display: revert;
+    }
+
+    .medtext{
+    font-weight: 800;
+    font-size: 5.8rem;
+    line-height: 8rem;
+    }
+    
+    .textidustry{
+        text-align: center;
+    }
+
+    .butfirst{
+        display:flex;
+        flex-direction: row;
+        gap:3rem;
+        justify-content: center;
+    }
+
+    .arabic{
+        display: none;
     }
 }
