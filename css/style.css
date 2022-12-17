@@ -370,7 +370,7 @@ select{
     align-items: center;
     display:flex;
     padding-right: 4rem;
-
+    gap:2rem;
 }
 
 #naviganew{
@@ -400,7 +400,7 @@ select{
 
     .bob{
         margin-right: 6rem;
-        margin-left: auto;
+        margin-left: 14rem;
     }
 
     .navignav{
@@ -434,12 +434,13 @@ select{
         display: none;
     }
 
-    /* .cards{
+    .cards{
         display: flex;
         flex-direction: row;
         gap:3rem;
-
-    } */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width:700px){
