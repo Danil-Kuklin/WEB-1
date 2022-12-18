@@ -289,8 +289,6 @@ button {
     font-weight: 700;
     color:#252B42;
     font-style: 1.6rem;
-    padding-top: 11.5rem;
-    padding-left: 6rem; 
 }
 
 .bckhand{
@@ -356,6 +354,8 @@ select{
     flex-direction: column;
     justify-content: flex-end;
     gap:0;
+    padding-top: 11rem;
+    margin-left:7rem;
 }
 
 .wrapper7{
@@ -481,10 +481,28 @@ select{
         padding-left: 4rem;
         padding-right: 4rem;
     }
+    
+    .wrapper2{
+        display: none;
+    }
+
+    .bigscreen{
+        display:flex;
+        flex-direction: row;
+        width: 70rem;
+        height: 40rem;
+        padding-left: 7rem;
+        padding-bottom: 45rem;
+    }
+
 }
 
 @media screen and (max-width:700px){
     #id_navar{
         display: none;
+    }
+
+    .bigscreen{
+        display:none;
     }
 }
