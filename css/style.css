@@ -460,6 +460,10 @@ select{
         margin: 0;
     }
 
+    .box2{
+        margin:0;
+    }
+
     .lish{
         margin-top: 13rem;
     }
@@ -467,6 +471,15 @@ select{
     .video{
         width: 70rem;
         height: 44rem;
+    }
+
+    .cardspeop{
+        display: flex;
+        margin:0;
+        gap:3rem;
+        justify-content: space-around;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 }
 
