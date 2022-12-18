@@ -247,7 +247,10 @@ button {
 }
 
 .textinbox{
-    padding: 0 2rem 3.5rem 2rem;
+    box-sizing: border-box;
+    width: 24rem;
+    height: 6rem;
+    padding: 0 4rem 3.5rem 4rem;
 }
 
 
@@ -385,6 +388,11 @@ select{
     display: none;
 }
 
+.tolk{
+    padding-top:8rem;
+    margin-top:10rem;
+}
+
 @media screen and (min-width:700px){
     .navigation{
         background-image: url(../img/backgroundhead.png);
@@ -414,9 +422,15 @@ select{
     }
 
     .medtext{
-    font-weight: 800;
-    font-size: 5.8rem;
-    line-height: 8rem;
+        box-sizing: border-box;
+        width: 63rem;
+        height: 16rem;
+        font-weight: 800;
+        font-size: 5.8rem;
+        line-height: 8rem;
+        margin-left: auto;
+        padding-top: 8rem;
+        margin-right: auto;
     }
     
     .textidustry{
@@ -445,7 +459,15 @@ select{
     .box{
         margin: 0;
     }
+
+    .lish{
+        margin-top: 13rem;
+    }
     
+    .video{
+        width: 70rem;
+        height: 44rem;
+    }
 }
 
 @media screen and (max-width:700px){
