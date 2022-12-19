@@ -401,6 +401,14 @@ select{
     display: none;
 }
 
+.footcons{
+    margin-top:0;
+    color:white;
+    font-weight: 700;
+    font-size: 2.4rem;
+    padding-top: 4rem;
+}
+
 .tolk{
     padding-top:8rem;
     margin-top:10rem;
@@ -409,6 +417,10 @@ select{
 @media screen and (min-width:700px){
     .navigation{
         background-image: url(../img/backgroundhead.png);
+    }
+
+    .nomarg{
+        margin: 0;
     }
 
     #naviganew{
@@ -523,6 +535,14 @@ select{
         gap:1rem;
     }
 
+    .footdiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 3rem;
+    }
+
     .bigcont{
         padding-top:4rem;
         padding-bottom: 4rem;
@@ -530,6 +550,28 @@ select{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+    }
+
+    hr{
+        border: 1px solid #364067;
+        margin-right: 7rem;
+        margin-top: 4rem;
+        margin-bottom: 7rem;
+    }
+
+    .footend{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 7rem;
+    }
+
+    .mintextfoot{
+        display: felx;
+        flex-direction: column;
+        margin:0;
+        gap:2rem;
+
     }
 
 }
