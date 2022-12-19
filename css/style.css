@@ -248,7 +248,7 @@ button {
 
 .textinbox{
     box-sizing: border-box;
-    width: 24rem;
+    /* width: 24rem; */
     height: 6rem;
     padding: 0 4rem 3.5rem 4rem;
 }
@@ -454,6 +454,10 @@ select{
         gap:3rem;
         flex-wrap: wrap;
         justify-content: center;
+        box-sizing: border-box;
+        width: 82rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .box{
@@ -482,6 +486,10 @@ select{
         padding-right: 4rem;
     }
     
+    .textinbox{
+        width: 24rem;
+    }
+    
     .wrapper2{
         display: none;
     }
@@ -495,6 +503,29 @@ select{
         padding-bottom: 45rem;
     }
 
+    .newcont{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        gap:2rem;
+    }
+
+    .bigcont{
+        padding-top:4rem;
+        padding-bottom: 4rem;
+        left: calc(50% - 1050px/2);
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:819px) and (min-width:700px){
+    .cards{
+        width: 70rem;
+    }
 }
 
 @media screen and (max-width:700px){
@@ -503,6 +534,10 @@ select{
     }
 
     .bigscreen{
+        display:none;
+    }
+
+    .komukc{
         display:none;
     }
 }
