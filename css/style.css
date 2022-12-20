@@ -414,6 +414,21 @@ select{
     margin-top:10rem;
 }
 
+.formflex{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.formcont{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    justify-content: flex-start;
+}
+
 @media screen and (min-width:700px){
     .navigation{
         background-image: url(../img/backgroundhead.png);
