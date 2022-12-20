@@ -422,6 +422,12 @@ select{
     align-items: center;
 }
 
+.formtext{
+    font-weight: 700;
+    color: #252B42;
+    font-style: 1.6rem;
+}
+
 .formcont{
     display: flex;
     flex-direction: column;
