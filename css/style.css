@@ -429,6 +429,21 @@ select{
     justify-content: flex-start;
 }
 
+.formcont1{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    justify-content: center;
+
+}
+
+.testcont{
+    display: flex;
+    flex-direction: row;
+    gap:0.5rem;
+    align-items: center;
+}
+
 @media screen and (min-width:700px){
     .navigation{
         background-image: url(../img/backgroundhead.png);
