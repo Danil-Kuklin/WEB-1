@@ -164,9 +164,13 @@ footer {
 
 .wrapper2 {
     display: flex;
-    flex-direction: column;
+    width: 30.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 1em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .wrapper3 {
@@ -285,11 +289,12 @@ button {
 
 .review-list {
     display: flex;
+    padding-bottom: 8rem;
     gap: 3rem;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0;
-    margin-bottom: 8em;
+    padding-left: 0;
+    margin: 0;
 }
 
 
@@ -388,12 +393,6 @@ blockquote {
     background-image: url(../img/trueman.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.forlabel {
-    max-width: 30rem;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .istok {
@@ -531,11 +530,23 @@ select {
 
 }
 
+textarea{
+    width:28.4rem;
+    resize: none;
+    margin: 1rem;
+    border: 1px solid #737373;
+}
+
 .testcont {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
     align-items: center;
+}
+
+.inp{
+    width: 28.4rem;
+    margin: 1rem;
 }
 
 @media screen and (min-width:700px) {
@@ -545,12 +556,25 @@ select {
         background-size: cover;
     }
 
+    textarea{
+        width:59rem;
+    }
+
+
+
     .nomarg {
         margin: 0;
     }
 
     #naviganew {
         display: none;
+    }
+
+    .wrapper2 {
+        width: 65rem;
+        justify-content: left;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .consultal {
@@ -641,9 +665,7 @@ select {
         width: 24rem;
     }
 
-    .wrapper2 {
-        display: none;
-    }
+
 
     .bigscreen {
         display: flex;
