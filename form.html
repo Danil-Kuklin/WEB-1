@@ -92,35 +92,52 @@
                     <input type="text" name="phone" placeholder="+7-999-00-00" value="">
                 </div>
 
-                <label class="formtext" style="padding-right: 19rem;">Choose your gender</label>
-                <div class="formcont1"> 
+                <fieldset style="border: 0;">
+                    <legend class="formtext" style="padding-right: 19rem;">Choose your gender</legend>
+                    <div class="formcont1"> 
                     
-                    <div class="testcont">
-                        <input type="radio" name="gender" value="man">
-                        <p>Male</p>
+                        <div class="testcont">
+                            <input type="radio" name="gender" value="man">
+                            <p>Male</p>
+                        </div>
+                        <div class="testcont">
+                            <input type="radio" name="gender" value="women">
+                            <p>Female</p>
+                        </div>
+                        <div class="testcont">
+                            <input type="radio" name="gender" value="helicopter">
+                            <p>Helicopter</p>
+                        </div>
                     </div>
-                    <div class="testcont">
-                        <input type="radio" name="gender" value="women">
-                        <p>Female</p>
-                    </div>
-                    <div class="testcont">
-                        <input type="radio" name="gender" value="helicopter">
-                        <p>Helicopter</p>
-                    </div>
-                </div>  
+
+                </fieldset>
 
                 <div class="formcont">
                     <label class="formtext"> Create the password </label>
                     <input type="password" name="userpas" placeholder="Password" value="" />
                 </div>
-
-                <div class="formcont" style="gap:2rem; padding-right: 8rem;" >
-                    <label class="formtext">Choose a convenient time to contact you</label>
-                    <p style="margin: 0;"><input type="checkbox" name="time" value="morning" />Morning</p>
-                    <p style="margin: 0;"><input type="checkbox" name="time" value="day" />Day</p>
-                    <p style="margin: 0;"><input type="checkbox" name="time" value="evening" />Evening</p>
-                    <p style="margin: 0;"><input type="checkbox" name="time" value="night" />Night</p>
-                </div>
+                
+                <fieldset style="border: 0;">
+                    <div class="formcont" style="gap:2rem; padding-right: 8rem;" >
+                        <legend class="formtext">Choose a convenient time to contact you</legend>
+                        <p style="margin: 0;" class="testcont" >
+                            <input type="checkbox" name="time" value="morning">
+                            Morning
+                        </p>
+                        <p style="margin: 0;">
+                            <input type="checkbox" name="time" value="day">
+                            Day
+                        </p>
+                        <p style="margin: 0;" class="testcont">
+                            <input type="checkbox" name="time" value="evening">
+                            Evening
+                        </p>
+                        <p style="margin: 0;" class="testcont">
+                            <input type="checkbox" name="time" value="night">
+                            Night
+                        </p>
+                    </div>
+                </fieldset>
 
                 <div class="formcont">
                     <label class="formtext">Choose the date of the consultation</label>
