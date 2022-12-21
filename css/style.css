@@ -59,8 +59,9 @@ form {
     margin-top: 0;
 }
 
+
 #sectionthree {
-    background-color: #F3F3F3;
+    background: linear-gradient(to top, #252B42 50%, #F3F3F3 50%);
 }
 
 h1 {
@@ -305,7 +306,6 @@ button {
     border-radius: .5rem;
     padding: 3rem 3.5rem;
     width: 32.9rem;
-    height: 24.4rem;
     background-color: var(--primary-bg-color);
 }
 
