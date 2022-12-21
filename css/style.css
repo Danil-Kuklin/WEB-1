@@ -59,6 +59,17 @@ form {
     margin-top: 0;
 }
 
+fieldset{
+    border: 0;
+}
+
+button:hover{
+    background-color: #FF5F00;
+    transition: all 0.9s ;
+    box-shadow: 15px 15px 0 0 #ED6742;
+}
+
+
 
 #sectionthree {
     background: linear-gradient(to top, #252B42 50%, #F3F3F3 50%);
@@ -501,6 +512,7 @@ select {
     gap: 3rem;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3rem;
 }
 
 .formtext {
