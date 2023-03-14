@@ -561,6 +561,40 @@ textarea{
     margin: 1rem;
 }
 
+.dlg_modal{
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99998;
+    background-color: rgba(0,0,0,0.3);
+    /* display: none; */
+
+}
+
+.cross{
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.dlg_body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40rem;
+    background: #ffffff;
+    padding: 2rem;
+    transform: translate(-50%, -50%);
+}
+
+.dlg_modal.active{
+    display: block;
+}
+
 @media screen and (min-width:700px) {
     .navigation {
         background-image: url(../img/skali.jpg);
