@@ -569,7 +569,10 @@ textarea{
     height: 100vh;
     z-index: 2;
     background-color: rgba(0,0,0,0.3);
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+    /* display: none; */
 
 }
 
@@ -591,8 +594,10 @@ textarea{
     transform: translate(-50%, -50%);
 }
 
-.dlg_modal.active{
-    display: block;
+.dlg_modal.open{
+    visibility: visible;
+    opacity: 1;
+
 }
 
 @media screen and (min-width:700px) {

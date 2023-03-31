@@ -1,13 +1,16 @@
-const openDlg = document.getElementsById('open_dlg');
-const closeDlg = document.getElementById('close_dlg');
-const Dlg_modal = document.getElementById('dlg_modal');
+document.getElementById("open_dlg").addEventListener("click", function(){
+    document.getElementById("my_modal").classList.add("open")
+});
 
-openDlg.addEventListener('click', function(e){
-    e.preventDefault();
-    Dlg_modal.classList.add('active');
+document.getElementById("close_dlg").addEventListener("click", function(){
+    document.getElementById("my_modal").classList.remove("open")
+});
 
-})
+documen.querySelector("#my_modal .dlg_modal").addEventListener('click', event => {
+    event._isClickWithInModal = true;
+});
 
-closeDlg.addEventListener('click', () => {
-    Dlg_modal.classList.remove('active');
-})
+document.getElementById("my_modal").addEventListener("click", event => {
+    if(event._isClickWithInModal) return;
+    event.currentTarget.classList.remove('open');
+});

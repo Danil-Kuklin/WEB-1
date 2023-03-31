@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
-    <script src="main.js"></script>
+    
     <title>Макет</title>
 </head>
 
@@ -30,13 +30,13 @@
                     <a class="navignav" href="#">Contact</a>
                 </div>
 
-                <div class="dlg_modal">
+                <div class="dlg_modal" id="my_modal">
                     <div class="dlg_body">
-                        <div class="cross close_dlg">&#10006</div>
+                        <div class="cross" id="close_dlg">&#10006</div>
                         <form>
                             <div class="formcont">
                                 <label> Your email </label>
-                                <input type="email" name="email" placeholder="example@gmail.com" value="">
+                                <input required type="email" name="email" placeholder="example@gmail.com" value="">
                             </div>
                             <div class="formcont">
                                 <label> Create the password </label>
@@ -468,6 +468,7 @@
             </div>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 
 </html>
