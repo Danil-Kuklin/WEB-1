@@ -31,16 +31,24 @@
                 </div>
 
                 <div class="dlg_modal" id="my_modal">
-                    <div class="dlg_body">
-                        <div class="cross" id="close_dlg">&#10006</div>
-                        <form>
+                    <div class="dlg_body" id="dlg">
+                        <div class="cross" id="close_dlg">&#10006;</div>
+                        <form novalidate>
                             <div class="formcont">
-                                <label> Your email </label>
-                                <input required type="email" name="email" placeholder="example@gmail.com" value="">
+                                <label for="mail"> Your email </label>
+                                    <input required type="email" name="email" id="mail" placeholder="example@gmail.com" value="">
                             </div>
                             <div class="formcont">
                                 <label> Create the password </label>
-                                <input type="password" name="userpas" placeholder="Password" value="" />
+                                <input required minlength="6" type="password" id="pswd" name="password" placeholder="Password" value="">
+                                <button class="eyes" type="button">look</button>
+                                
+                            </div>
+                            <div id="error"></div>
+                            <div style="margin-left: 12rem; padding-top:2rem">
+                                <button type="submit" class="orangebut2">
+                                    Submit
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -129,7 +137,7 @@
                     Classical physics: Newtonian mechanics
                 </p>
                 <div class="forcads">
-                    <div clss="intocard">
+                    <div class="intocard">
                         <img src="img/carbon_tool-box.svg" alt="" height="48" width="48" />
                         <p class="textcard">Business & Finance</p>
                     </div>
