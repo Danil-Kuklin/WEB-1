@@ -3,7 +3,10 @@ const open_dlg = document.getElementById('open_dlg');
 const full_modal = document.getElementById('my_modal');
 const eyes = document.querySelector('.eyes');
 const inputpswd = document.querySelector('#pswd');
-const error = document.querySelector('#error')
+const error = document.querySelector('#error1')
+const error2 = document.querySelector('#error2')
+const sub = document.getElementById('sub')
+
 
 document.getElementById("open_dlg").addEventListener("click", function(){
     document.getElementById("my_modal").classList.add("open")
@@ -19,8 +22,6 @@ full_modal.addEventListener('click', (e) => {
     }
 })
 
-// eyes.onfocus = (e) => inputpswd.type = 'text';
-// eyes.onblure = (e) => inputpswd.type = 'password';
 eyes.addEventListener('pointerdown', ()=> {
     inputpswd.setAttribute('type', 'text');
 })
@@ -37,9 +38,23 @@ mail.onblur = function() {
     }
   };
   
-  mail.onfocus = function() {
+ mail.onfocus = function() {
     if (this.classList.contains('invalid')) {
       this.classList.remove('invalid');
       error.innerHTML = "";
     }
-  };
+}; 
+
+pswd.onblur = function() {
+    if(pswd.value.length < 6) {
+        pswd.classList.add('invalid');
+        error2.innerHTML = 'минимальная длина паролья: 6';
+    }
+};
+
+pswd.onfocus = function() {
+    if (this.classList.contains('invalid')) {
+      this.classList.remove('invalid');
+      error2.innerHTML = "";
+    }
+};
