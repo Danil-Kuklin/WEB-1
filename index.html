@@ -30,30 +30,32 @@
                     <a class="navignav" href="#">Contact</a>
                 </div>
 
-                <div class="dlg_modal" id="my_modal">
-                    <div class="dlg_body" id="dlg">
-                        <div class="cross" id="close_dlg">&#10006;</div>
-                        <form novalidate>
-                            <div class="formcont">
-                                <label for="mail"> Your email </label>
-                                    <input required type="email" name="email" id="mail" placeholder="example@gmail.com" value="">
-                            </div>
-                            <div class="formcont">
-                                <label> Create the password </label>
-                                <input required minlength="6" type="password" id="pswd" name="password" placeholder="Password" value="">
-                                <button class="eyes" type="button">look</button>
-                                
-                            </div>
-                            <div id="error1"></div>
-                            <div id="error2"></div>
-                            <div style="margin-left: 12rem; padding-top:2rem">
-                                <button id="sub" type="submit" class="orangebut2">
-                                    Submit
-                                </button>
-                            </div>
-                        </form>
+                <form id="dlg_form">
+                    <div class="dlg_modal" id="my_modal">
+                        <div class="dlg_body" id="dlg">
+                            <div class="cross" id="close_dlg">&#10006;</div>
+                            <form novalidate>
+                                <div class="formcont">
+                                    <label for="mail"> Your email </label>
+                                        <input required type="email" name="email" id="mail" placeholder="example@gmail.com" value="">
+                                </div>
+                                <div class="formcont">
+                                    <label> Create the password </label>
+                                    <input required minlength="6" type="password" id="pswd" name="password" placeholder="Password" value="">
+                                    <button class="eyes" type="button">look</button>
+                    
+                                </div>
+                                <div id="error1"></div>
+                                <div id="error2"></div>
+                                <div style="margin-left: 12rem; padding-top:2rem">
+                                    <button id="sub" type="submit" class="orangebut2">
+                                        Submit
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                </div>
+                </form>
 
                 <button class="cleanbutton ">
                     <img src="img/lupa vec.svg" width="24" height="24" alt="lupa">

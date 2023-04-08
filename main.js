@@ -6,6 +6,9 @@ const inputpswd = document.querySelector('#pswd');
 const error = document.querySelector('#error1')
 const error2 = document.querySelector('#error2')
 const sub = document.getElementById('sub')
+const form = document.querySelector('#dlg_form')
+// const formElem = document.getElementById('dlg_form');
+
 
 
 document.getElementById("open_dlg").addEventListener("click", function(){
@@ -48,7 +51,7 @@ mail.onblur = function() {
 pswd.onblur = function() {
     if(pswd.value.length < 6) {
         pswd.classList.add('invalid');
-        error2.innerHTML = 'минимальная длина паролья: 6';
+        error2.innerHTML = 'Минимальная длина паролья: 6';
     }
 };
 
@@ -58,3 +61,23 @@ pswd.onfocus = function() {
       error2.innerHTML = "";
     }
 };
+
+const formElem = document.getElementById('dlg_form');
+formElem.addEventListener('submit', (e) => {
+    e.preventDefault();
+    let t = 1;
+    if(!pswd.validity.valid || !mail.validity.valid){
+        t = 0;
+    }
+    else{
+        t = 1;
+    }
+    if(t == 1){
+        const data = new FormData(formElem);
+        const mail = data.get('email');
+        const pass = data.get('password');
+        console.log(mail, pass);
+    }
+})
+
+
