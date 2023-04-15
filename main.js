@@ -64,19 +64,37 @@ pswd.onfocus = function() {
 
 const formElem = document.getElementById('dlg_form');
 formElem.addEventListener('submit', (e) => {
-    e.preventDefault();
-    let t = 1;
-    if(!pswd.validity.valid || !mail.validity.valid){
-        t = 0;
+    // e.preventDefault();
+    // let t = 1;
+    // if(!pswd.validity.valid || !mail.validity.valid){
+    //     t = 0;
+    // }
+    // else{
+    //     t = 1;
+    // }
+    // if(t == 1){
+    //     const data = new FormData(formElem);
+    //     const mail = data.get('email');
+    //     const pass = data.get('password');
+    //     console.log(mail, pass);
+    // }
+    if(e.cancelable){
+        if(!pswd.validity.valid || !mail.validity.valid){
+            e.preventDefault();
+        }
+        else{
+            e.preventDefault();
+            const data = new FormData(formElem);
+            const mail = data.get('email');
+            const pass = data.get('password');
+            console.log(mail, pass);
+            document.getElementById("my_modal").classList.remove("open")
+
+        }
     }
     else{
-        t = 1;
-    }
-    if(t == 1){
-        const data = new FormData(formElem);
-        const mail = data.get('email');
-        const pass = data.get('password');
-        console.log(mail, pass);
+        e.preventDefault();
+        console.log("Отмена");
     }
 })
 
